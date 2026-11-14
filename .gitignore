@@ -1,0 +1,21 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# ---- Kiro Crew ----
+# Keep the .kiro folder tracked (steering files, project config).
+# This negation overrides any global/parent gitignore that hides .kiro.
+!.kiro/
+.kiro/*
+!.kiro/steering/
+.kiro/steering/*
+!.kiro/steering/project.md
